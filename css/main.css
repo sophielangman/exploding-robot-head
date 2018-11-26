@@ -19,10 +19,12 @@ body {
 
 .robot {
   width: 320px;
+  position: relative;
 }
 
 .robot-body {
   width: 320px;
+  left: 50%;
 }
 
 .robot-brain {
@@ -33,3 +35,13 @@ body {
 .robot-head-left {
   width: 125px;
 }
+
+.robot-head-right:hover {
+
+}
+
+.robot-head-left {
+
+}
+
+/* Thomas's wrote all widths */

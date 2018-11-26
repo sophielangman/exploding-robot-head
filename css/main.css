@@ -20,20 +20,37 @@ body {
 .robot {
   width: 320px;
   position: relative;
+  top: 100px;
+  left: 500px;
 }
 
 .robot-body {
   width: 320px;
-  left: 50%;
 }
 
 .robot-brain {
   width: 46px;
+  position: absolute;
+  right: 138px;
+  bottom: 90px;
 }
 
 .robot-head-right,
 .robot-head-left {
   width: 125px;
+  position: absolute;
+  left: 100px;
+  bottom: 60px;
+}
+
+.robot-head-right {
+  position: absolute;
+  right: 200px;
+}
+
+.robot-head-left {
+  position: absolute;
+  left: 100px;
 }
 
 .robot-head-right:hover {
@@ -44,4 +61,4 @@ body {
 
 }
 
-/* Thomas's wrote all widths */
+/* Thomas's wrote all widths and banner colourx */
